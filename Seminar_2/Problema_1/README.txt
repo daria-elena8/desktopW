@@ -1,0 +1,1 @@
+//Afisati numarul de aparitii al unui subsir citit de la  tastatura in sirul dat.
