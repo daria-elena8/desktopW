@@ -1,0 +1,1 @@
+Să se afișeze numărulde litere mici, litere mari și semne de punctuație dintr-o propoziție citită de la tastatură.
