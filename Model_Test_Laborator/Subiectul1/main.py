@@ -1,10 +1,14 @@
+doc=[]
+l=[]
 def citire_numere(f):
-    linie=f.readline()
-    while linie!="":
-        l= linie.strip().split(" ")
-        print(l)
-        linie=f.readline()
+    line=f.readline()
+    while line!="":
+       l=line.strip().split(" ")
+       doc.append(l)
+       line=f.readline()
+
     f.close()
 
 f=open("numere.in", "r")
 citire_numere(f)
+print(doc)
